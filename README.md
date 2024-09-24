@@ -59,6 +59,7 @@ I18N: [English](README_EN.md) | [简体中文](README.md) | [日本語](README_J
    ```bash
    make download -j8
    make V=s -j1
+   PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin make -j1 V=s
    ```
 
 本套代码保证肯定可以编译成功。里面包括了 R23 所有源代码，包括 IPK 的。
